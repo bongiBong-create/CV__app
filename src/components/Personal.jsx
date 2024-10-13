@@ -1,3 +1,5 @@
+import "../styles/personal.css";
+
 export default function Personal() {
   return (
     <section className="personal">
@@ -7,7 +9,7 @@ export default function Personal() {
           <input id="name" type="text" placeholder="your name"/>
         </div>
         <div className="form__item">
-          <label htmlFor="last-name">Name</label>
+          <label htmlFor="last-name">Last Name</label>
           <input id="last-name" type="text" placeholder="your last name"/>
         </div>
         <div className="form__item">

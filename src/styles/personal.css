@@ -1,0 +1,18 @@
+.personal {
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+

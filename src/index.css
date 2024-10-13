@@ -9,6 +9,10 @@ ul, ol, li {
   text-decoration: none;
 }
 
+input {
+  padding: 2px 5px;
+}
+
 button {
   border: 0;
   background: transparent;
