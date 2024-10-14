@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "sus";
+  src: url("./fonts/SuisseIntl-Book.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "sus";
 }
 
 ul, ol, li {

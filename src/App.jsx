@@ -13,6 +13,7 @@ function App() {
       email: "mairanss543@inbox.ru",
       tg: "tg.me/bongi",
       github: "github.com",
+      vk: "https://vk.com/bongibingo",
     },
 
     skills: {
@@ -21,6 +22,8 @@ function App() {
       library: "jquery, bootstrap, animation.js",
       tools: "github, git,"
     }
+
+
   }
   );
 
@@ -30,7 +33,6 @@ function App() {
         <Form data={data} setData={setData}/>
       </>
       <section className="resume">
-        <h1>Your resume</h1>
         <Personal data={data} />
         <Skills data={data} />
       </section>

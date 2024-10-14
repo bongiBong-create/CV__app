@@ -1,0 +1,4 @@
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+}
