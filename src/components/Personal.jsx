@@ -6,7 +6,7 @@ export default function Personal(props) {
     return (
         <>
             <div className="data_personal">
-                <h1 className="name">{data.personal.name} {data.personal.lastName}</h1>
+                <h1 className="name">{data.personal.name ? `${data.personal.name} ${data.personal.lastName}` : "Your Name"}</h1>
             </div>
             <div className="contacts">
                 <div className="subtitle"><b>Contacts</b></div>

@@ -20,10 +20,8 @@ function App() {
       language: "JavaScript",
       framework: "React",
       library: "jquery, bootstrap, animation.js",
-      tools: "github, git,"
+      tools: "github, git"
     }
-
-
   }
   );
 
