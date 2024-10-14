@@ -1,12 +1,39 @@
 import "./styles/app.css";
+import React, { useState } from "react";
+import Form from "./components/Form";
 import Personal from "./components/Personal";
-import Resume from "./components/Resume";
+import Skills from "./components/Skills";
 
 function App() {
+  const [data, setData] = useState({
+    personal: {
+      name: "Bongi",
+      lastName: "So",
+      number: "+7 900 430 22 18",
+      email: "mairanss543@inbox.ru",
+      tg: "tg.me/bongi",
+      github: "github.com",
+    },
+
+    skills: {
+      language: "JavaScript",
+      framework: "React",
+      library: "jquery, bootstrap, animation.js",
+      tools: "github, git,"
+    }
+  }
+  );
+
   return (
     <main className="main">
-    <Personal />
-    <Resume />
+      <>
+        <Form data={data} setData={setData}/>
+      </>
+      <section className="resume">
+        <h1>Your resume</h1>
+        <Personal data={data} />
+        <Skills data={data} />
+      </section>
     </main>
   )
 }

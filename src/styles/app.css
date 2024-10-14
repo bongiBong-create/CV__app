@@ -6,3 +6,10 @@
   align-items: start;
   justify-content: center;
 }
+
+.resume {
+  flex-direction: column;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+}

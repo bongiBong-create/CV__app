@@ -18,12 +18,14 @@ export default [
       },
     },
     settings: { react: { version: '18.3' } },
+    extends: ["eslint:all", "plugin:react/all"],
     plugins: {
       react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
     rules: {
+      "no-unused-vars": "warn",
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
