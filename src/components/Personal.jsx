@@ -18,18 +18,6 @@ export default function Personal(props) {
                     <div className="vk"><a href={data.personal.vk}> {data.personal.vk}</a> </div>
                 </div>
             </div>
-            {/* <div className="education">
-                <div className="subtitle"><b>Education</b></div>
-            </div>
-
-            <div className="experiences">
-                <div className="subtitle"><b>Experiences</b></div>
-
-            </div>
-
-            <div className="projects">
-                <div className="subtitle"><b>Projects</b></div>
-            </div> */}
         </>
     )
 }

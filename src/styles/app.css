@@ -16,6 +16,11 @@
 }
 
 .subtitle {
-  font-size: 2rem;
+  font-size: 2rem; 
   margin: 10px 0;
+}
+
+.btns__box {
+  display: flex;
+  gap: 25px;
 }

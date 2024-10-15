@@ -2,6 +2,8 @@
     background-color: #fff;
     padding: 20px 10px;
     border-radius: 8px;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 form {
@@ -14,5 +16,9 @@ form {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+textarea {
+    padding: 5px;
 }
 
